@@ -1,0 +1,48 @@
+<?php
+return [
+    'title' => 'Konvertera Timestamp till Datum - Unix Timestamp Konvertering',
+    'h1' => 'Unix Timestamp till Datum Omvandlare',
+    'meta_keywords' => 'timestamp till datum konverterare',
+    'meta_description' => 'Konvertera enkelt Unix timestamps till läsbara datum med vår gratis online timestamp till datum konverterare. Snabb, exakt och enkel att använda.',
+    'meta_title' => 'Timestamp till Datum Omvandlare - Direkt Unix Timestamp Konvertering',
+    'locale' => 'sv-SE',
+    'select_language' => 'Välj Språk',
+    'summary' => 'Konvertera enkelt Unix timestamps',
+    'copy_time' => 'Kopiera',
+    'done_copy' => 'Kopierad!',
+    'begin_start' => 'Sekunder sedan 1 januari 1970. (UTC)',
+    'enter_time' => 'Ange en Timestamp',
+    'enter_date' => 'Ange ett Datum och Tid',
+    'year' => 'År',
+    'month' => 'Månad',
+    'day' => 'Dag',
+    'hour' => 'Timme',
+    'hour_24h' => 'Timme (24h)',
+    'minutes' => 'Minuter',
+    'seconds' => 'Sekunder',
+    'format' => 'Format',
+    'your_time_zone' => 'Din Tidszon',
+    'relative' => 'Relativ',
+    'what_unix' => 'Vad är Unix timestamp?',
+    'unix_des' => 'Unix timestamp är ett sätt att spåra tid som ett löpande totalt antal sekunder.
+           Detta börjar vid Unix Epoch den 1 januari 1970 vid UTC.
+           Därför är Unix timestamp bara antalet sekunder mellan ett visst datum och Unix Epoch.
+           Det bör också påpekas (tack vare kommentarer från besökare på denna sida) att denna tidpunkt tekniskt sett inte förändras oavsett var du är på jorden.
+           Detta är mycket användbart för datorsystem för att spåra och sortera tidsstämplad information i dynamiska och distribuerade applikationer både online och på klientsidan.',
+    'human_time' => 'Mänskligt Läst Tid',
+    '1_minute' => '1 Minut',
+    '60_second' => '60 Sekunder',
+    '1_hour' => '1 Timme',
+    '3600_second' => '3600 Sekunder',
+    '1_day' => '1 Dag',
+    '86400_second' => '86400 Sekunder',
+    '1_week' => '1 Vecka',
+    '604800_second' => '604800 Sekunder',
+    '1_month' => '1 Månad (30.44 dagar)',
+    '2629743_second' => '2629743 Sekunder',
+    '1_year' => '1 År (365.24 dagar)',
+    '31556926_second' => '31556926 Sekunder',
+    '2038' => 'Vad händer den 19 januari 2038?',
+    '2038_des_1' => '2038 års problem (även kallat Y2038, Epochalypse, Y2k38 eller Unix Y2K) handlar om att representera tid i många digitala system som antalet sekunder som har gått sedan 00:00:00 UTC den 1 januari 1970 och lagra det som ett signerat 32-bitars heltal. Sådana implementeringar kan inte koda tider efter 03:14:07 UTC den 19 januari 2038. Liknande Y2K-problemet orsakas 2038 års problem av otillräcklig kapacitet för att representera tid.',
+    '2038_des_2' => 'Den senaste tidpunkten sedan 1 januari 1970 som kan lagras med ett signerat 32-bitars heltal är 03:14:07 den 19 januari 2038 (231-1 = 2,147,483,647 sekunder efter 1 januari 1970). Program som försöker öka tiden efter detta datum kommer att orsaka att värdet lagras internt som ett negativt tal, vilket systemen kommer att tolka som om det inträffade vid 20:45:52 den 13 december 1901 (2,147,483,648 sekunder före 1 januari 1970) istället för den 19 januari 2038. Detta beror på ett heltalsöverflöd, där räknaren går slut på användbara bitar och byter teckenbit. Detta rapporterar ett maximalt negativt tal, och fortsätter att räkna uppåt, mot noll, och sedan upp genom de positiva heltalen igen. Felaktiga beräkningar på sådana system kommer troligen att orsaka problem för användare och andra beroende parter.'
+];
